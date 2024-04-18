@@ -13,6 +13,10 @@
   --dairy: #fcfcfc;
   --font-family: "Roboto", sans-serif;
   --second-family: "Raleway", sans-serif;
+.header {
+  border-bottom: 1px solid var(--cornflower);
+  display: flex;
+}
 }
 body {
   color: var(--slate);
@@ -57,7 +61,6 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 1px solid var(--cornflower);
 }
 .logo-header {
   color: var(--navy-blue);
